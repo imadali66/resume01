@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="skill.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+
+
+</head>
+
+<body>
+
+    <header class=" text-bg-dark sticky-top" id="navbar">
+        <div class="container">
+            <nav class="navbar navbar-expand-md navbar-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="/">
+                        <div class="imgLogo">
+                            <img src="/images/IMG-20240306-WA0026.jpg" alt="">
+                        </div>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="/index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " href="/skill.html">Skills</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled" href="#">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/contact.html">Contact Us</a>
+                            </li>
+                        </ul>
+                        <div class="text-end">
+                            <button id="loginButton" type="button"
+                                class="btn btn-md btn-outline-secondary me-2">Log-In</button>
+                            <button id="signupButton" type="button" class="btn btn-md btn-warning">Sign-up</button>
+                            <button id="logoutButton" class="btn btn-md btn-warning"
+                                style="display: none;">Logout</button>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div id="skillBody">
+        <div id="main-carousel">
+
+
+            <div id="carouselExampleFade" class="carousel slide carousel-fade">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="/images/coding1.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/images/coding2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/images/coding4.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+
+
+            <div data-scroll data-scroll-speed="3" data-scroll-direction="horizontal"
+                class=" d-flex align-items-center justify-content-center my-5 ">
+
+                <div class="card mb-3 " style="max-width: 1200px;">
+                    <div class="row g-0 px-5 py-5">
+                        <div class="col-md-4">
+                            <img src="/images/business-2717063_1920.jpg" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Html & Css</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo,
+                                    maiores
+                                    obcaecati consequatur quibusdam odit, optio alias error, eius aperiam rerum totam?
+                                    Vero
+                                    recusandae impedit quos quasi velit possimus, soluta odio. Lorem ipsum dolor sit
+                                    amet
+                                    consectetur adipisicing elit. Nobis dolor necessitatibus ipsam sit deleniti quos
+                                    hic?
+                                    Soluta molestiae delectus sit neque ratione. Magni soluta dolore ut magnam. Ex ipsa
+                                    atque necessitatibus.</p>
+                                <p class="card-text"><small class="text-body-secondary">Last Updated 3 hours ago</small>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div data-scroll data-scroll-speed="-4" data-scroll-direction="horizontal"
+                class=" d-flex align-items-center justify-content-center my-5 ">
+
+                <div class="card mb-3 px-5 py-5" style="max-width: 1200px;">
+                    <div class="row g-0">
+
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">JavaScript , Bootstrap </h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo,
+                                    maiores
+                                    obcaecati consequatur quibusdam odit, optio alias error, eius aperiam rerum totam?
+                                    Vero
+                                    recusandae impedit quos quasi velit possimus, soluta odio. Lorem ipsum dolor sit
+                                    amet
+                                    consectetur adipisicing elit. Nobis dolor necessitatibus ipsam sit deleniti quos
+                                    hic?
+                                    Soluta molestiae delectus sit neque ratione. Magni soluta dolore ut magnam. Ex ipsa
+                                    atque necessitatibus.</p>
+                                <p class="card-text"><small class="text-body-secondary">Last Updated 4 days ago</small>
+                                </p>
+                            </div>
+
+                        </div>
+                        <div class="col-md-4">
+                            <img src="/images/cup-of-coffee-1280537_1920.jpg" class="img-fluid rounded-start" alt="...">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div data-scroll data-scroll-speed="8" data-scroll-direction="horizontal"
+                class=" d-flex align-items-center justify-content-center my-5">
+
+                <div class="card mb-3 px-5 py-5" style="max-width: 1200px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="/images/node-js-736399_1920.png" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">NodeJs , ExpressJs</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo,
+                                    maiores
+                                    obcaecati consequatur quibusdam odit, optio alias error, eius aperiam rerum totam?
+                                    Vero
+                                    recusandae impedit quos quasi velit possimus, soluta odio. Lorem ipsum dolor sit
+                                    amet
+                                    consectetur adipisicing elit. Nobis dolor necessitatibus ipsam sit deleniti quos
+                                    hic?
+                                    Soluta molestiae delectus sit neque ratione. Magni soluta dolore ut magnam. Ex ipsa
+                                    atque necessitatibus.</p>
+                                <p class="card-text"><small class="text-body-secondary">Last Updated 9 days ago</small>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div data-scroll data-scroll-speed="-14" data-scroll-direction="horizontal"
+                class=" d-flex align-items-center justify-content-center my-5">
+
+                <div class="card mb-3 px-5 py-5" style="max-width: 1200px;">
+                    <div class="row g-0">
+
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">MongoDb , Mongoose & More ...</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo,
+                                    maiores
+                                    obcaecati consequatur quibusdam odit, optio alias error, eius aperiam rerum totam?
+                                    Vero
+                                    recusandae impedit quos quasi velit possimus, soluta odio. Lorem ipsum dolor sit
+                                    amet
+                                    consectetur adipisicing elit. Nobis dolor necessitatibus ipsam sit deleniti quos
+                                    hic?
+                                    Soluta molestiae delectus sit neque ratione. Magni soluta dolore ut magnam. Ex ipsa
+                                    atque necessitatibus.</p>
+                                <p class="card-text"><small class="text-body-secondary">Last Updated 14 days ago</small>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="/images/laptop-2557576_1920.jpg" class="img-fluid rounded-start" alt="...">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+            <div
+                class="d-flex flex-column flex-sm-row justify-content-around py-2 my-2 border rounded bg-dark text-light">
+                <p>© 2024 Company, Inc. All rights reserved.</p>
+                <ul class="list-unstyled d-flex">
+                    <li class="ms-3"><a class="text-light" href="#"><svg class="bi" width="24" height="24">
+                                <use xlink:href="#LinkedIn"><i class="bi bi-linkedin"></i></use>
+                            </svg></a></li>
+                    <li class="ms-3"><a class="text-light" href="#"><svg class="bi" width="24" height="24">
+                                <use xlink:href="#instagram"><i class="bi bi-instagram"></i></use>
+                            </svg></a></li>
+                    <li class="ms-3"><a class="text-light" href="#"><svg class="bi" width="24" height="24">
+                                <use xlink:href="#facebook"><i class="bi bi-facebook"></i></use>
+                            </svg></a></li>
+                </ul>
+            </div>
+
+
+        </div>
+
+    </div>
+    <!--  footer-->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="skill.js"></script>
+    <script src="script.js"></script>.html
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

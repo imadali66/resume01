@@ -1,0 +1,40 @@
+ #contactForm {
+    background-image: linear-gradient(#fafafa21, #dadaea45);
+ }
+ 
+ #main-contact {
+    position: relative;
+    width: 100%;
+    /* padding-top: 80px; */
+    background: linear-gradient(rgba(0, 0, 0, 0.61), rgba(0, 0, 0, 0.621)), url('/images/beach-8009994_1920.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top; 
+}
+ .form-control{
+    border: none;
+    background-color: #ffffff70; 
+ }
+ label{
+    border: none;
+ }
+#contactForm{
+    padding: 23px;
+    border-radius: 23px;
+}
+.top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    position: relative;
+    top: 32px;
+}
+.top h1{
+    color: #ffb733b5;
+}
+.top p{
+    color: #ffffffb9;
+}

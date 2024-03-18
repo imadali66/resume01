@@ -1,0 +1,84 @@
+#mainBody {
+  background: linear-gradient(#2623237c , #4343c067  ) , url('/images/sunset-8485916_1920.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  /* object-position: bottom; */
+  height: 3500px;
+}
+
+.imgLogo img {
+  border-radius: 50%;
+  border: 2px solid grey;
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  object-position: bottom;
+  margin-right: 20px;
+  position: relative;
+  top: 5px;
+}
+
+#skill-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* color: orange; */
+  font-weight: 800;
+  font-family: cursive;
+  font-size: 40px;
+}
+
+#skill-heading h1 {
+  font-size: 4rem;
+}
+
+.footer {
+  position: absolute;
+  width: 100%;
+}
+ 
+
+
+/* con */
+#contactForm {
+  background-image: linear-gradient(#fafafa21, #dadaea45);
+}
+
+#main-contact {
+  position: relative;
+  width: 100%;
+  /* padding-top: 80px; */
+  background: linear-gradient(rgba(0, 0, 0, 0.61), rgba(0, 0, 0, 0.621)), url('/images/beach-8009994_1920.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top; 
+}
+.form-control{
+  border: none;
+  background-color: #ffffff70; 
+}
+label{
+  border: none;
+}
+#contactForm{
+  padding: 23px;
+  border-radius: 23px;
+  margin-bottom: 21px;
+}
+.top{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  position: relative;
+}
+.top h1{
+  color: #ffb733b5;
+}
+.top p{
+  color: #ffffffb9;
+}

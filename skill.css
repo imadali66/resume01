@@ -1,0 +1,23 @@
+#carouselExampleFade {
+    height: 75vh; /* Set height to 75% of the viewport height */
+    overflow: hidden; /* Hide any overflow content */
+    padding: 23px;
+    padding-bottom: 0;
+    margin-top: 32px;
+}
+
+.carousel-inner {
+    height: 100%; /* Make the carousel inner container fill the entire height */
+}
+
+.carousel-item {
+    height: 100%; /* Make each carousel item fill the entire height */
+}
+
+.carousel-item img {
+    height: 100%; /* Ensure the images fill the entire height of the carousel item */
+    object-fit: cover; /* Ensure the images cover the entire area of the carousel item */
+}
+#skillBody{
+    height: 2400px;
+}
